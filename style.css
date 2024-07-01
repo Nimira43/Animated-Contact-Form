@@ -64,6 +64,6 @@ html {
     height: 0;
     border: 2rem solid transparent;
     border-top: 0;
-    border-bottom: 1.8rem;
-    
+    border-bottom: 1.8rem solid darkorange;
+
 }
