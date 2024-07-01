@@ -46,10 +46,51 @@ html {
 .fish-group {
     width: 40rem;
     height: 15rem;
-    background-color: #ccc;
     position: absolute;
     top: 50%;
     left: 40%;
+}
+
+.fish {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.fish:nth-child(1) {
+    top: 40%;
+    right: 2rem;
+}
+
+.fish:nth-child(2) {
+    top: 0;
+    right: 10rem;
+}
+
+.fish:nth-child(3) {
+    top: 35%;
+    right: 15rem;
+}
+
+.fish:nth-child(4) {
+    bottom: 0;
+    right: 8rem;
+}
+
+.fish:nth-child(5) {
+    top: 0;
+    left: 8rem;
+}
+
+.fish:nth-child(6) {
+    top: 40%;
+    left: 2rem;
+}
+
+.fish:nth-child(7) {
+    bottom: 0;
+    left: 10rem;
 }
 
 .fish-body {
@@ -65,5 +106,7 @@ html {
     border: 2rem solid transparent;
     border-top: 0;
     border-bottom: 1.8rem solid darkorange;
-
+    transform: rotateZ(90deg);
+    margin-right: -1.2rem;
+    border-radius: 1rem;
 }
