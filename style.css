@@ -1,1 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nokora', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.water {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: aqua;
+}
+
+.waves {
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    display: flex;
+}
+
+.wave {
+    width: 10%;
+    height: 10rem;
+    background-color: #fff;
+    border-radius: 0 0 50% 50% / 50%;
+}
+
+.fish-group {
+    width: 40rem;
+    height: 15rem;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.fish-body {
+    width: 6rem;
+    height: 3rem;
+    background-color: orange;
+    border-radius: 65% 40% 40% 65% / 50%;
+}
+
+.fish-tail {
+    width: 0;
+    height: 0;
+    border: 2rem solid transparent;
+    border-top: 0;
+    border-bottom: 1.8rem;
+    
+}
